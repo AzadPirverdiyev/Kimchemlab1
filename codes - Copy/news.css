@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+    padding: 0px 50px;
+    box-shadow:0px 0px 20px 0px;
+}
+.menu-wrapper ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 85px;
+    font-size: 20px;
+    color: #101928;
+}
+.menu-wrapper ul li{
+    list-style: none;
+}
+.menu-wrapper ul li a:hover{
+    color:#18c332;
+}
+.menu-wrapper ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.logo-item1{
+    color:#18c332;
+}
+.text-black{
+    color: black;
+}
+.login-wrapper{
+    border: 0.5px solid #18c332;
+    border-radius:9px;
+    padding: 12px 42px;
+    background-color: white;
+}
+.login-wrapper a{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 7px;
+    text-decoration: none;
+    color:#18c332;
+}
+.register-wrapper{
+    border:solid white;
+    border-radius:10px;
+    padding: 12px 42px;
+    background-color:#18c332;
+}
+.register-wrapper a{
+    text-decoration: none;
+    color: white;
+}
+.hab{
+	padding:30px;
+	background-color: #ddd;
+	border-radius: 20px;
+}
+.seklo{
+	border-radius: 10px;
+}
+
+.ash{
+	display: flex;
+	align-items: center;
+}
+.tarihv{
+	padding-left: 100px;
+}
+.etrafli{
+	border: none;
+	border-radius: 20px;
+	background-color:#18c332;
+	padding: 13px 30px;
+    color: white;
+}
+.menu-wrapper ul li .active{
+    color: #18c332;
+}
+.dama{
+	display: flex;
+	align-items: center;
+	gap: 150px;
+}
+.ede{
+	border-bottom:5px solid #eaedf5;
+	padding: 10px;
+}
+.ede:hover{
+	border-bottom:5px solid #4b4d51 ;
+	box-shadow:9em;
+	border-left:1px solid #eef2fc ;
+	border-top:1px solid #eef2fc ;
+	border-right:1px solid #eef2fc ;
+}
+.fag{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 35px;
+    margin-top: 40px;
+}
+.ka:hover{
+	color:#18c332;
+}
+.ahs{
+	border-radius:1px;
+}
